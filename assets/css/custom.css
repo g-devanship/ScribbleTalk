@@ -1,0 +1,83 @@
+body {
+    /* Set two base colors for the gradient transition */
+    
+background-color:rgb(245, 246, 179);
+  
+
+    /* Adjust these values to control transition speed and color placement */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center;
+   }
+  
+    /* Additional styles for your design */
+    
+   
+  
+  /* ... existing styles for other elements ... */
+  
+  .login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #fff; /* Set background color for login box */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Animation definition */
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .login {
+    background: linear-gradient(to right, #f7e8d1, #efe2d7); /* Light background with gradient */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .login img {
+    border-radius: 50%; /* Circular image */
+  }
+  
+  .h5.mb-3.fw-normal {
+    color: #333; /* Text color for heading */
+  }
+  
+  .form-floating .form-control {
+    border: 1px solid #ccc; /* Input field border */
+    background-color: #fafafa; /* Light background for input fields */
+  }
+  
+  .form-floating .form-control:focus {
+    border-color: #ebc84a; /* Input field border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .btn-primary {
+    background-color: #82eb4a; /* Button color */
+    border-color: #f8f0c7; /* Button border color */
+    transition: all 0.2s ease-in-out; /* Smooth button hover effect */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0ee066;
+    color:#000000 ;/* Button hover color */
+    border-color: #f8f0c7; /* Button hover border color */
+  }
+  
+  .text-decoration-none {
+    color: #000000; /* Link color */
+    transition: all 0.2s ease-in-out; /* Smooth link hover effect */
+  }
+  
+  .text-decoration-none:hover {
+    color: #e4125f; /* Link hover color */
+  }
+  
+  
+  
+  /* Add styles for specific form elements here (optional) */
+  
